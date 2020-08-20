@@ -1,0 +1,77 @@
+body{
+	background-color:darkorange;
+}
+h1{
+	color:grey;
+//	font-style: italic;
+	text-align: center;
+	border: 5px solid black;
+    font-size:500%;
+    background-color:darkred;
+    margin:100px 300px ;
+}
+h3{
+	background-color:red;
+	color:darkorchid;
+	font:oblique bold 150% cursive;
+	text-align: center;
+	border:10px solid gold;
+	font-size: 500%	;
+	margin:0px 250px;
+
+}
+
+.p{
+    
+  
+}
+.p3{
+	font-size: 150%;
+	font-style:italic;
+
+}
+.p4{
+	font-size: 150%;
+	font-style: italic;
+
+}
+.button{
+	font-size: 20px;
+}
+ 
+
+.divglobal{
+ 	display: flex;
+ }
+
+.divglobal div{
+	flex: 1;
+}
+
+ .div1{
+ 	font-style: italic;
+    font-size: 150%;
+    text-align:left;
+    color:gold;
+    border:10px solid blue;
+   // margin:10px 500px 0px 0px;
+    background-color:red;
+ }
+
+.div2{
+	border:10px solid red;
+//	margin:10px 10px 50px 500px;
+	font-size: 150%;
+	background-color:gold;
+	margin-top:0px
+
+}
+
+
+
+
+
+
+
+
+
