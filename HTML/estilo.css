@@ -86,31 +86,36 @@ table,th,td{
 th{text-align: center;}
 td{text-align: center;}
 
-#lista1 ul{
-list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow:hidden;
-	background-color: red;
+#lista1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
 
+#lista1 .li0{
+  float: left;
 }
-#lista1 ul li{
-	float:left;
+
+#lista1 .li0 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
-#lista1 ul li a{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 16px;
-	text-decoration: none;
-}
-#lista1 ul li a: hover{
-	background-color: red;
+
+#lista1 .li0 a:hover {
+  background-color: #111111;
 }
 
 #lista2{
 	color: white;
 	font-size:150%;
+}
+.java{
+	float:left;
 }
 
 
